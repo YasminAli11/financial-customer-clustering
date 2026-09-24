@@ -1,4 +1,4 @@
-# Customer Clustering Dashboard 🧠
+# Customer Clustering Dashboard
 
 A Streamlit-based customer clustering dashboard for analyzing and segmenting **5,452 customers** based on financial and loan-related features.
 
@@ -67,7 +67,7 @@ These files contain the cleaned customer demographic, performance, and previous-
 
 ---
 
-## 🤖 Models
+## Models
 
 The project evaluates six approaches.
 
@@ -154,7 +154,7 @@ DBSCAN performed poorly on this dataset because of its low Silhouette Score and 
 
 ---
 
-## 📈 Model Comparison
+##  Model Comparison
 
 | Model            | Silhouette Score | Reported Clusters |
 | ---------------- | ---------------: | ----------------: |
@@ -165,7 +165,7 @@ DBSCAN performed poorly on this dataset because of its low Silhouette Score and 
 | **SVM (RBF)**    |       **0.7656** |                 3 |
 | **DBSCAN**       |       **0.0457** |                14 |
 
-### 🏆 Best Performing Models
+### Best Performing Models
 
 * **GMM + RBM** achieved the highest reported Silhouette Score: **0.9941**.
 * **DEC** achieved a strong Silhouette Score of **0.9779**.
@@ -204,7 +204,7 @@ The dashboard provides:
 
 ---
 
-## 🔍 Live Customer Prediction
+## Live Customer Prediction
 
 The dashboard allows users to enter information for a new customer, including:
 
@@ -230,7 +230,7 @@ If a required model file is unavailable or prediction fails, the application use
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Pandas
@@ -246,7 +246,7 @@ If a required model file is unavailable or prediction fails, the application use
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 project_AML/
@@ -274,7 +274,7 @@ project_AML/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 ### 1. Clone the repository
 
@@ -333,7 +333,7 @@ The application also contains fallback prediction logic when the required traine
 
 ---
 
-## 📓 Notebook
+##  Notebook
 
 The original project implementation and experiments are available in:
 
@@ -345,7 +345,7 @@ The notebook contains the data processing, model experimentation, evaluation, an
 
 ---
 
-## 👥 Team Members
+##  Team Members
 
 This project was developed collaboratively by a team of six members. Each member was responsible for a specific part of the project:
 
@@ -360,7 +360,7 @@ This project was developed collaboratively by a team of six members. Each member
 
 ---
 
-## 🎓 Project Context
+##  Project Context
 
 This project was developed as a collaborative **Applied Machine Learning** project.
 
